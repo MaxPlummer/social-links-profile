@@ -27,6 +27,15 @@ article.profile-card {
   padding: 1.75rem;
   gap: 1.75rem;
 }
+@media (min-width: 450px) {
+  body {
+    font-size: 16px;
+  }
+  article.profile-card {
+    width: 310px;
+    padding: 2.75rem;
+  }
+}
 img.avatar {
   width: 100px;
   height: 100px;
@@ -72,5 +81,5 @@ a.social-link:hover {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(75, 94%, 57%);
 }
